@@ -27,13 +27,13 @@ Title.Position = UDim2.new(0, 0, 0.02, 0)
 Title.Size = UDim2.new(1, 0, 0, 50)
 Title.Font = Enum.Font.SourceSans
 Title.Text = "密钥系统"
-Title.TextColor3 = Color3.new(0, 0, 255)
+Title.TextColor3 = Color3.new(0, 0, 0)
 Title.TextScaled = true
 Title.TextSize = 14
 Title.TextWrapped = true
 
 Frame.Parent = Title
-Frame.BackgroundColor3 = Color3.new(0, 0, 255)
+Frame.BackgroundColor3 = Color3.new(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.07, 0, 0.9, 0)
 Frame.Size = UDim2.new(0.85, 0, 0, 6)
@@ -54,7 +54,7 @@ Key.TextWrapped = true
 
 Start.Name = "Start"
 Start.Parent = UI
-Start.BackgroundColor3 = Color3.new(0, 0, 255)
+Start.BackgroundColor3 = Color3.new(0, 0, 05)
 Start.BackgroundTransparency = 0
 Start.BorderSizePixel = 2
 Start.Position = UDim2.new(0.25, 0, 0.65, 0)
