@@ -11,19 +11,19 @@ local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
 
 local Whitelisted = false;
 
-if game.Players.LocalPlayer.Name == "dss3144" then 
-Whitelisted = true 
-end
-
-if game.Players.LocalPlayer.Name == "usualuspop" then 
-Whitelisted = true 
-end
-
-if game.Players.LocalPlayer.Name == "mcxiaoyan_114514" then 
-Whitelisted = true 
-end
-
 if game.Players.LocalPlayer.Name == "85Minecraft666666" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "无" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "无" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "无" then 
 Whitelisted = true 
 end
 
