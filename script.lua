@@ -9,7 +9,7 @@ CoreGui:SetCore("SendNotification", {
 
 local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
 
-local Whitelisted = false;
+local Whitelisted = true;
 
 if game.Players.LocalPlayer.Name == "85Minecraft666666" then 
 Whitelisted = true 
