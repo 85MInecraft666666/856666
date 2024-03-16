@@ -155,7 +155,7 @@ if Whitelisted == true then
 CoreGui:SetCore("SendNotification", {
     -- Customizable
     Title = "白名单认证",
-    Text = "玩家:"..game.Players.LocalPlayer.Name.."，你是白名单玩家，稍后会加载脚本",
+    Text = "玩家:"..game.Players.LocalPlayer.Name.."，尊敬的白名单玩家，正在为您加载脚本",
     Duration = 7, --时间
 })
 
@@ -202,7 +202,7 @@ local FrameUpdateTable = { }
 
 Heartbeat:Connect(HeartbeatUpdate)
 CoreGui:SetCore("SendNotification", {
-    Title = "星云脚本",
+    Title = "星空脚本",
     Text = "正在加载（反挂机已开启）",
     Duration = 5, 
 })
@@ -214,9 +214,9 @@ print("反挂机开启")
 		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 		end)
 local OrionLib = loadstring(game:HttpGet('https://pastebin.com/raw/SePpsSPZ'))()
-local Window = OrionLib:MakeWindow({Name = "星云脚本", HidePremium = false, SaveConfig = true,IntroText = "欢迎使用星云脚本", ConfigFolder = "欢迎使用星云脚本"})
+local Window = OrionLib:MakeWindow({Name = "星空脚本", HidePremium = false, SaveConfig = true,IntroText = "欢迎使用星空脚本", ConfigFolder = "欢迎使用星空脚本"})
 local about = Window:MakeTab({
-    Name = "星云脚本V3",
+    Name = "星空脚本V3",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
