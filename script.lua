@@ -15,7 +15,7 @@ if game.Players.LocalPlayer.Name == "85Minecraft666666" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "无" then 
+if game.Players.LocalPlayer.Name == "love_kexin1314" then 
 Whitelisted = true 
 end
 
