@@ -189,7 +189,7 @@ LBL.Position = UDim2.new(0.75,0,0.010,0)
 LBL.Size = UDim2.new(0, 133, 0, 30)
 LBL.Font = Enum.Font.GothamSemibold
 LBL.Text = "欢迎使用"
-LBL.TextColor3 = Color3.new(250,250,250)
+LBL.TextColor3 = Color3.new(225,215,250)
 LBL.TextScaled = true
 LBL.TextSize = 14
 LBL.TextWrapped = true
@@ -234,7 +234,7 @@ Tab:AddSlider({
 	Min = 16,
 	Max = 200,
 	Default = 16,
-	Color = Color3.fromRGB(255,255,255),
+	Color = Color3.fromRGB(0,0,0),
 	Increment = 1,
 	ValueName = "数值",
 	Callback = function(Value)
@@ -246,7 +246,7 @@ Tab:AddSlider({
 	Min = 50,
 	Max = 200,
 	Default = 50,
-	Color = Color3.fromRGB(255,255,255),
+	Color = Color3.fromRGB(0,0,0),
 	Increment = 1,
 	ValueName = "数值",
 	Callback = function(Value)
